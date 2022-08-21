@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.visuals {
+    background-color: red;
+    height: 100%;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    background-color: #f8fbfb;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: min(30%, 200px);
+}
+
+.container p {
+    padding: 16px;
+}
