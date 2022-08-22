@@ -13,6 +13,8 @@ body {
 ul {
     list-style-type: none;
     display: flex;
+    gap: 64px;
+    padding-bottom: 16px;
 }
 
 .visuals {
@@ -21,8 +23,8 @@ ul {
 }
 
 img {
-    height: 100%;
-    width: auto;
+    width: 515px;
+    height:auto;
 }
 
 
@@ -35,10 +37,39 @@ img {
 .container {
     background-color: #f8fbfb;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     height: min(30%, 200px);
 }
 
 .container p {
     padding: 16px;
+}
+
+fieldset {
+    border: none;
+    box-shadow: 0px 4px 4px #dddcde;
+    padding: 16px 0px 16px 64px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height:25px;
+    width: 250px;
+    border-radius: 4px;
+    border: 2px solid #E5E7EB;
+}
+
+label {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+fieldset p {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-bottom: 16px;
 }
