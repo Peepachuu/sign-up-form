@@ -39,16 +39,14 @@ img {
     font-weight: bold;
     font-size: 1.3rem;
     height: min(30%, 200px);
+    padding: 32px 0px 0px 32px;
 }
 
-.container p {
-    padding: 16px;
-}
 
 fieldset {
     border: none;
     box-shadow: 0px 4px 4px #dddcde;
-    padding: 16px 0px 16px 64px;
+    padding: 16px 0px 16px 32px;
 }
 
 li {
@@ -72,4 +70,26 @@ fieldset p {
     font-weight: bold;
     font-size: 1.3rem;
     padding-bottom: 16px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: transparent;
+    background-color: #596D48;
+    color: white;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.submit-area {
+    padding: 32px 0px 0px 32px;
 }
