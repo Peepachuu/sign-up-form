@@ -23,11 +23,11 @@
         </div>
         <form action="post">
             <fieldset>
-                <p>Let's do this!</p>
+                <p>The required fields are followed by a *. Now, let's do this!</p>
                 <ul>
                     <li>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first_name" placeholder="Thor">
+                        <label for="first-name">FIRST NAME*</label>
+                        <input type="text" id="first-name" name="first_name" placeholder="Thor" required>
                     </li>
                     <li>
                         <label for="last-name">LAST NAME</label>
@@ -36,22 +36,22 @@
                 </ul>
                 <ul>
                     <li>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
+                        <label for="email">EMAIL*</label>
+                        <input type="email" id="email" name="email" required>
                     </li>
                     <li>
-                        <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" id="phone-number" name="phone_number">
+                        <label for="phone-number">PHONE NUMBER*</label>
+                        <input type="tel" id="phone-number" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxxx-xxxx" required>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <label for="password">PASSWORD*</label>
+                        <input type="password" id="password" name="password" required>
                     </li>
                     <li>
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="confirm_password">
+                        <label for="confirm-password">CONFIRM PASSWORD*</label>
+                        <input type="password" id="confirm-password" name="confirm_password" required>
                     </li>
                 </ul>
             </fieldset>
