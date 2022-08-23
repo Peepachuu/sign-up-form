@@ -26,20 +26,48 @@ ul {
     background-position: center center;
 }
 
+.visuals p{
+    position: relative;
+    top: 95%;
+    text-align: center;
+    color: white;
+}
+
+.visuals a {
+    color: white;
+}
+
+.visuals img {
+    height: 100%;
+    width: auto;
+}
 .sign-up {
     width: min(850px, 70%);
+    background-color: #f8fbfb;
 }
+
 .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    top: 30%;
+
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    padding: 8px 0px;
 }
+
 
 .container {
     background-color: #f8fbfb;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 32px 0px 0px 32px;
+    height: 200px;
 }
 
 .container p {
@@ -49,6 +77,7 @@ ul {
 
 fieldset {
     border: none;
+    background-color: white;
     box-shadow: 0px 4px 4px #dddcde;
     padding: 16px 32px 16px 32px;
 }
@@ -88,7 +117,7 @@ button {
     font-size: 1.1rem;
 }
 
-a {
+.submit-area a {
     color: #596D48;
     font-weight: bold;
     text-decoration: none;
@@ -97,3 +126,4 @@ a {
 .submit-area {
     padding: 32px 0px 0px 32px;
 }
+
